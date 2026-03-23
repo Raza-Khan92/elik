@@ -41,20 +41,17 @@ export function searchProducts(query: string): Product[] {
   )
 }
 
-export function getRelatedProducts(product: Product, limit = 4): Product[] {
-  const others = products.filter((p) => p.id !== product.id)
+// 4 products from the same category (for "More like this" row)
+export function getSameCategoryProducts(product: Product, limit = 4): Product[] {
+  return products
+    .filter((p) => p.id !== product.id && p.category === product.category)
+    .slice(0, limit)
+}
 
-  // 3 from the same category first (user is already interested in it)
-  const sameCategory = others
-    .filter((p) => p.category === product.category)
-    .slice(0, 3)
-
-  // Fill remaining slots with 1 random product from a different category
-  const remaining = limit - sameCategory.length
-  const otherCategories = others
-    .filter((p) => p.category !== product.category)
-    .sort(() => 0.5 - Math.random())
-    .slice(0, remaining)
-
-  return [...sameCategory, ...otherCategories]
+// 1 product from each other category (for "Explore other categories" row)
+export function getCrossCategoryProducts(product: Product): Product[] {
+  const otherCategories = categories.filter((c) => c.slug !== product.category)
+  return otherCategories
+    .map((cat) => products.find((p) => p.category === cat.slug))
+    .filter((p): p is Product => p !== undefined)
 }

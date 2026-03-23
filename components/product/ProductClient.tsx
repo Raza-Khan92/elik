@@ -4,7 +4,7 @@ import Link from 'next/link'
 import { ChevronRight, Heart, ShoppingCart, Check, Minus, Plus, Share2, Copy } from 'lucide-react'
 import { ProductCard } from '@/components/product/ProductCard'
 import { Button } from '@/components/ui/button'
-import { getCategoryBySlug, getRelatedProducts } from '@/lib/products'
+import { getCategoryBySlug, getSameCategoryProducts, getCrossCategoryProducts } from '@/lib/products'
 import { useCartStore } from '@/stores/cartStore'
 import { useWishlistStore } from '@/stores/wishlistStore'
 import { formatPrice, getDiscountInfo, cn } from '@/lib/utils'
@@ -20,7 +20,8 @@ export function ProductClient({ product }: { product: Product }) {
   const { toggleItem, isInWishlist } = useWishlistStore()
 
   const category = getCategoryBySlug(product.category)
-  const relatedProducts = getRelatedProducts(product, 4)
+  const sameCategory = getSameCategoryProducts(product, 4)
+  const crossCategory = getCrossCategoryProducts(product)
   const inWishlist = isInWishlist(product.id)
   const discount = getDiscountInfo(product.price, product.originalPrice)
 
@@ -171,13 +172,29 @@ export function ProductClient({ product }: { product: Product }) {
         </div>
       </div>
 
-      {/* Related Products */}
-      {relatedProducts.length > 0 && (
-        <div className="bg-stone-100 py-12 lg:py-16">
+      {/* Same Category Row */}
+      {sameCategory.length > 0 && (
+        <div className="bg-stone-50 py-12 lg:py-16">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <h2 className="text-2xl lg:text-3xl font-serif font-bold text-stone-900 mb-8">You May Also Like</h2>
+            <h2 className="text-2xl lg:text-3xl font-serif font-bold text-stone-900 mb-8">
+              More {category?.name ?? 'Like This'}
+            </h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-              {relatedProducts.map((p) => <ProductCard key={p.id} product={p} />)}
+              {sameCategory.map((p) => <ProductCard key={p.id} product={p} />)}
+            </div>
+          </div>
+        </div>
+      )}
+
+      {/* One from each other category */}
+      {crossCategory.length > 0 && (
+        <div className="bg-white py-12 lg:py-16">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 className="text-2xl lg:text-3xl font-serif font-bold text-stone-900 mb-8">
+              Explore More at Elik
+            </h2>
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+              {crossCategory.map((p) => <ProductCard key={p.id} product={p} />)}
             </div>
           </div>
         </div>
