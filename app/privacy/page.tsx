@@ -1,6 +1,6 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
-import { Shield, ChevronRight } from 'lucide-react'
+import { Shield } from 'lucide-react'
 
 const LAST_UPDATED = 'March 21, 2025'
 const CONTACT_EMAIL = 'aliraxaa95@gmail.com'
@@ -38,38 +38,16 @@ export default function PrivacyPage() {
   return (
     <div className="pt-20 bg-stone-50 min-h-screen">
       <div className="bg-stone-900 py-12 lg:py-16">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex items-center gap-3 mb-4">
-            <div className="w-10 h-10 bg-amber-500/20 rounded-xl flex items-center justify-center">
-              <Shield className="w-5 h-5 text-amber-400" />
-            </div>
-            <nav className="flex items-center text-xs text-stone-500">
-              <Link href="/" className="hover:text-stone-300 transition-colors">Home</Link>
-              <ChevronRight className="w-3 h-3 mx-1.5" />
-              <span className="text-stone-300">Privacy Policy</span>
-            </nav>
+        <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <div className="w-12 h-12 bg-amber-500/20 rounded-2xl flex items-center justify-center mx-auto mb-4">
+            <Shield className="w-6 h-6 text-amber-400" />
           </div>
           <h1 className="text-3xl lg:text-4xl font-serif font-bold text-white">Privacy Policy</h1>
           <p className="text-stone-400 mt-3 text-sm">Last updated: {LAST_UPDATED}</p>
-          <p className="text-stone-400 mt-2 max-w-2xl">Your privacy is important to us. This policy explains how {SITE_NAME} collects, uses, and protects your personal information when you shop with us at {SITE_URL}.</p>
         </div>
       </div>
 
-      <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-10 lg:py-14">
-        <div className="lg:grid lg:grid-cols-[240px_1fr] lg:gap-12">
-          <aside className="hidden lg:block">
-            <div className="sticky top-24 bg-white rounded-2xl border border-stone-100 p-5">
-              <p className="text-xs font-semibold text-stone-500 uppercase tracking-wider mb-3">Contents</p>
-              <nav className="space-y-1">
-                {SECTIONS.map((s, i) => (
-                  <a key={s.id} href={`#${s.id}`} className="flex items-center gap-2 text-sm text-stone-600 hover:text-amber-600 py-1 transition-colors">
-                    <span className="text-stone-300 text-xs">{i + 1}.</span>{s.title}
-                  </a>
-                ))}
-              </nav>
-            </div>
-          </aside>
-
+      <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-10 lg:py-14">
           <article className="prose prose-stone max-w-none">
             <Section id="information-we-collect" title="1. Information We Collect">
               <p>When you use our website or place an order, we may collect the following information:</p>
@@ -149,7 +127,6 @@ export default function PrivacyPage() {
               </div>
             </Section>
           </article>
-        </div>
       </div>
     </div>
   )
