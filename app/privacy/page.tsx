@@ -22,7 +22,7 @@ const SECTIONS = [
 export const metadata: Metadata = {
   title: 'Privacy Policy',
   description: `${SITE_NAME} Privacy Policy — how we collect, use, and protect your personal information when you shop with us.`,
-  openGraph: { url: 'https://elikstore.vercel.app/privacy' },
+  openGraph: { url: 'https://elik.xyz/privacy' },
 }
 
 function Section({ id, title, children }: { id: string; title: string; children: React.ReactNode }) {

@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Elik – Premium Store Pakistan',
     description: 'Premium handbags, luxury perfumes, elegant watches, cosmetics & kids products. Cash on Delivery across Pakistan.',
-    url: 'https://elikstore.vercel.app',
+    url: 'https://elik.xyz',
   },
 }
 

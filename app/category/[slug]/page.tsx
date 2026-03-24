@@ -25,7 +25,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     openGraph: {
       title,
       description,
-      url: `https://elikstore.vercel.app/category/${slug}`,
+      url: `https://elik.xyz/category/${slug}`,
     },
   }
 }

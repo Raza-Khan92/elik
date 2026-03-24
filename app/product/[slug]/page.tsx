@@ -26,7 +26,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       title,
       description,
       images: product.images[0] ? [{ url: product.images[0] }] : [],
-      url: `https://elikstore.vercel.app/product/${slug}`,
+      url: `https://elik.xyz/product/${slug}`,
     },
   }
 }

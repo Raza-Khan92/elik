@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   description: 'Get in touch with Elik. We\'re here to help with orders, products, and anything else. WhatsApp, email, or contact form.',
   openGraph: {
     title: 'Contact Elik – We\'re Here to Help',
-    url: 'https://elikstore.vercel.app/contact',
+    url: 'https://elik.xyz/contact',
   },
 }
 

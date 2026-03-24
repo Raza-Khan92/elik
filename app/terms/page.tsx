@@ -25,7 +25,7 @@ const SECTIONS = [
 export const metadata: Metadata = {
   title: 'Terms & Conditions',
   description: `${SITE_NAME} Terms & Conditions — the rules and guidelines that govern your use of our website and purchases.`,
-  openGraph: { url: 'https://elikstore.vercel.app/terms' },
+  openGraph: { url: 'https://elik.xyz/terms' },
 }
 
 function Section({ id, title, children }: { id: string; title: string; children: React.ReactNode }) {

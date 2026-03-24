@@ -5,7 +5,7 @@ import { Footer } from '@/components/layout/Footer'
 import { FloatingButtons } from '@/components/layout/FloatingButtons'
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://elikstore.vercel.app'),
+  metadataBase: new URL('https://elik.xyz'),
   title: {
     default: 'Elik – Premium Store Pakistan',
     template: '%s | Elik',
