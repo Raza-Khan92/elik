@@ -28,16 +28,13 @@ export function WishlistContent() {
   }
 
   return (
-    <div className="pt-20">
-      <div className="bg-stone-900 py-10">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h1 className="text-3xl lg:text-4xl font-serif font-bold text-white">My Wishlist</h1>
-          <p className="text-stone-400 mt-2 text-sm">{items.length} saved item{items.length !== 1 ? 's' : ''}</p>
-        </div>
-      </div>
-      <div className="bg-stone-50 min-h-screen">
+    <div className="pt-20 bg-stone-50 min-h-screen">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 lg:py-12">
-        <div className="flex items-center justify-end mb-8">
+        <div className="flex items-center justify-between mb-8">
+          <div>
+            <h1 className="text-2xl lg:text-4xl font-serif font-bold text-stone-900">My Wishlist</h1>
+            <p className="text-stone-500 text-sm mt-1">{items.length} saved item{items.length !== 1 ? 's' : ''}</p>
+          </div>
           <button onClick={clearWishlist} className="text-sm text-red-400 hover:text-red-600 transition-colors">Clear all</button>
         </div>
 
@@ -70,7 +67,6 @@ export function WishlistContent() {
             <Link href="/"><ArrowLeft className="w-4 h-4" />Continue Shopping</Link>
           </Button>
         </div>
-      </div>
       </div>
     </div>
   )

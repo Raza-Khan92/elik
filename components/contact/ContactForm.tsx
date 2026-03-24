@@ -1,28 +1,9 @@
 'use client'
 import { useState } from 'react'
-import { MessageCircle, Send, Check } from 'lucide-react'
+import { Send, Check } from 'lucide-react'
 import { Button } from '@/components/ui/button'
 
-const WHATSAPP_NUMBER = '923045163438'
 const FORMSPREE_ID = process.env.NEXT_PUBLIC_FORMSPREE_CONTACT_ID
-
-async function sendContactEmail(data: { name: string; email: string; phone: string; message: string }) {
-  if (!FORMSPREE_ID) return
-  try {
-    await fetch(`https://formspree.io/f/${FORMSPREE_ID}`, {
-      method: 'POST',
-      headers: { Accept: 'application/json', 'Content-Type': 'application/json' },
-      body: JSON.stringify({
-        _subject: `📬 Elik Query – ${data.name}`,
-        customer_name: data.name,
-        customer_email: data.email,
-        customer_phone: data.phone || 'Not provided',
-        message: data.message,
-        submitted_at: new Date().toLocaleString('en-PK', { timeZone: 'Asia/Karachi' }),
-      }),
-    })
-  } catch { /* WhatsApp is primary */ }
-}
 
 export function ContactForm() {
   const [form, setForm] = useState({ name: '', email: '', phone: '', message: '' })
@@ -36,21 +17,25 @@ export function ContactForm() {
     e.preventDefault()
     setIsLoading(true)
 
-    const msg = [
-      '📬 *New Contact Form – Elik*', '',
-      `👤 Name: ${form.name}`,
-      `📧 Email: ${form.email}`,
-      form.phone ? `📞 Phone: ${form.phone}` : '',
-      '', `💬 Query:\n${form.message}`,
-    ].filter(Boolean).join('\n')
-
-    const whatsappUrl = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(msg)}`
-
-    await Promise.all([sendContactEmail(form), new Promise<void>(r => setTimeout(r, 600))])
+    try {
+      if (FORMSPREE_ID) {
+        await fetch(`https://formspree.io/f/${FORMSPREE_ID}`, {
+          method: 'POST',
+          headers: { Accept: 'application/json', 'Content-Type': 'application/json' },
+          body: JSON.stringify({
+            _subject: `📬 Elik Query – ${form.name}`,
+            customer_name: form.name,
+            customer_email: form.email,
+            customer_phone: form.phone || 'Not provided',
+            message: form.message,
+            submitted_at: new Date().toLocaleString('en-PK', { timeZone: 'Asia/Karachi' }),
+          }),
+        })
+      }
+    } catch { /* continue */ }
 
     setIsLoading(false)
     setSubmitted(true)
-    window.open(whatsappUrl, '_blank', 'noopener,noreferrer')
   }
 
   if (submitted) {
@@ -60,15 +45,10 @@ export function ContactForm() {
           <Check className="w-8 h-8 text-green-600" />
         </div>
         <h3 className="text-xl font-semibold text-stone-900 mb-2">Message Sent!</h3>
-        <p className="text-stone-500 mb-6">A WhatsApp window opened with your message pre-filled. If it didn&apos;t open, you can reach us directly below.</p>
-        <div className="flex flex-col sm:flex-row gap-3 justify-center">
-          <Button className="bg-amber-500 hover:bg-amber-600" onClick={() => { setSubmitted(false); setForm({ name: '', email: '', phone: '', message: '' }) }}>Send Another</Button>
-          <Button variant="outline" className="gap-2 text-green-700 border-green-300 hover:bg-green-50" asChild>
-            <a href={`https://wa.me/${WHATSAPP_NUMBER}`} target="_blank" rel="noopener noreferrer">
-              <MessageCircle className="w-4 h-4" />Open WhatsApp
-            </a>
-          </Button>
-        </div>
+        <p className="text-stone-500 mb-6">Thank you for reaching out. We&apos;ll get back to you as soon as possible.</p>
+        <Button className="bg-amber-500 hover:bg-amber-600" onClick={() => { setSubmitted(false); setForm({ name: '', email: '', phone: '', message: '' }) }}>
+          Send Another Message
+        </Button>
       </div>
     )
   }
@@ -96,7 +76,6 @@ export function ContactForm() {
       <Button type="submit" size="lg" className="w-full bg-amber-500 hover:bg-amber-600 text-white gap-2" disabled={isLoading}>
         {isLoading ? (<><div className="animate-spin rounded-full h-5 w-5 border-b-2 border-white" />Sending...</>) : (<><Send className="w-4 h-4" />Send Message</>)}
       </Button>
-      <p className="text-xs text-stone-400 text-center">Your message will be sent via WhatsApp for the fastest response.</p>
     </form>
   )
 }

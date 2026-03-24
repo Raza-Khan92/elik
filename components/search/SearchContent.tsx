@@ -29,15 +29,9 @@ export function SearchContent() {
   }
 
   return (
-    <div className="pt-20">
-      <div className="bg-stone-900 py-10">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h1 className="text-3xl lg:text-4xl font-serif font-bold text-white">Search Products</h1>
-          <p className="text-stone-400 mt-2 text-sm">Find exactly what you&apos;re looking for</p>
-        </div>
-      </div>
-      <div className="bg-stone-50 min-h-screen">
+    <div className="pt-20 bg-stone-50 min-h-screen">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 lg:py-12">
+        <h1 className="text-3xl lg:text-4xl font-serif font-bold text-stone-900 mb-8">Search Products</h1>
         <form onSubmit={handleSearch} className="max-w-2xl mb-12">
           <div className="relative">
             <SearchIcon className="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-stone-400" />
@@ -99,7 +93,6 @@ export function SearchContent() {
             <Link href="/"><ArrowLeft className="w-4 h-4" />Back to Home</Link>
           </Button>
         </div>
-      </div>
       </div>
     </div>
   )
