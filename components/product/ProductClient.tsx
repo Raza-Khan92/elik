@@ -40,7 +40,7 @@ export function ProductClient({ product }: { product: Product }) {
       priceValidUntil: '2026-12-31',
       availability: product.inStock ? 'https://schema.org/InStock' : 'https://schema.org/OutOfStock',
       itemCondition: 'https://schema.org/NewCondition',
-      url: `https://elikstore.vercel.app/product/${product.slug}`,
+      url: `https://elik.xyz/product/${product.slug}`,
       seller: { '@type': 'Organization', name: 'Elik Store' },
     },
   }

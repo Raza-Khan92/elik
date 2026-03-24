@@ -6,7 +6,7 @@ import { fileURLToPath } from 'url'
 import { dirname, join } from 'path'
 
 const __dirname = dirname(fileURLToPath(import.meta.url))
-const BASE_URL = 'https://elikstore.vercel.app'
+const BASE_URL = 'https://elik.xyz'
 const TODAY = new Date().toISOString().split('T')[0]
 
 const { products, categories } = JSON.parse(
