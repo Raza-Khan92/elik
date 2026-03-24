@@ -7,9 +7,16 @@
       "description": "Crafted from premium genuine leather, this elegant handbag features a spacious interior with multiple compartments, gold-tone hardware, and a detachable shoulder strap. Perfect for both office and evening occasions.",
       "price": 12999,
       "originalPrice": 15999,
-      "images": ["/images/handbag-1.jpg"],
+      "images": [
+        "/images/handbag-1.jpg"
+      ],
       "category": "handbags-wallets",
-      "tags": ["leather", "handbag", "elegant", "premium"],
+      "tags": [
+        "leather",
+        "handbag",
+        "elegant",
+        "premium"
+      ],
       "inStock": true,
       "featured": true,
       "newArrival": false
@@ -20,9 +27,16 @@
       "slug": "classic-leather-wallet",
       "description": "A timeless bi-fold wallet made from full-grain leather. Features 8 card slots, 2 bill compartments, and a coin pocket. The perfect everyday companion.",
       "price": 3499,
-      "images": ["/images/wallet-1.jpg"],
+      "images": [
+        "/images/wallet-1.jpg"
+      ],
       "category": "handbags-wallets",
-      "tags": ["leather", "wallet", "classic", "mens"],
+      "tags": [
+        "leather",
+        "wallet",
+        "classic",
+        "mens"
+      ],
       "inStock": true,
       "featured": false,
       "newArrival": true
@@ -34,9 +48,16 @@
       "description": "A chic crossbody bag with adjustable strap and multiple pockets. Made from high-quality vegan leather with elegant gold-tone hardware.",
       "price": 7999,
       "originalPrice": 9999,
-      "images": ["/images/handbag-2.jpg"],
+      "images": [
+        "/images/handbag-2.jpg"
+      ],
       "category": "handbags-wallets",
-      "tags": ["crossbody", "bag", "designer", "vegan-leather"],
+      "tags": [
+        "crossbody",
+        "bag",
+        "designer",
+        "vegan-leather"
+      ],
       "inStock": true,
       "featured": false,
       "newArrival": true
@@ -48,9 +69,16 @@
       "description": "A spacious structured tote bag perfect for work and weekend use. Features a magnetic snap closure, interior zip pocket, and sturdy handles. Fits a 15-inch laptop with ease.",
       "price": 9499,
       "originalPrice": 11999,
-      "images": ["/images/handbag-1.jpg"],
+      "images": [
+        "/images/handbag-1.jpg"
+      ],
       "category": "handbags-wallets",
-      "tags": ["tote", "bag", "work", "spacious"],
+      "tags": [
+        "tote",
+        "bag",
+        "work",
+        "spacious"
+      ],
       "inStock": true,
       "featured": false,
       "newArrival": true
@@ -61,9 +89,16 @@
       "slug": "suede-bucket-bag",
       "description": "A trendy bucket bag crafted from soft premium suede. Drawstring closure, detachable pouch inside, and an adjustable crossbody strap. Available in deep caramel.",
       "price": 8299,
-      "images": ["/images/handbag-2.jpg"],
+      "images": [
+        "/images/handbag-2.jpg"
+      ],
       "category": "handbags-wallets",
-      "tags": ["bucket", "suede", "trendy", "women"],
+      "tags": [
+        "bucket",
+        "suede",
+        "trendy",
+        "women"
+      ],
       "inStock": true,
       "featured": false,
       "newArrival": false
@@ -72,12 +107,19 @@
       "id": "hb-006",
       "name": "Evening Clutch Bag",
       "slug": "evening-clutch-bag",
-      "description": "A glamorous evening clutch adorned with delicate embroidery and a gold chain strap. Compact yet fitting — holds your essentials for any special occasion.",
+      "description": "A glamorous evening clutch adorned with delicate embroidery and a gold chain strap. Compact yet fitting \u2014 holds your essentials for any special occasion.",
       "price": 5999,
       "originalPrice": 7499,
-      "images": ["/images/handbag-1.jpg"],
+      "images": [
+        "/images/handbag-1.jpg"
+      ],
       "category": "handbags-wallets",
-      "tags": ["clutch", "evening", "party", "women"],
+      "tags": [
+        "clutch",
+        "evening",
+        "party",
+        "women"
+      ],
       "inStock": true,
       "featured": false,
       "newArrival": true
@@ -89,9 +131,16 @@
       "description": "A sophisticated quilted shoulder bag inspired by timeless luxury design. Features a gold chain-link strap, flap closure with CC-inspired clasp, and a fully lined interior.",
       "price": 14999,
       "originalPrice": 18999,
-      "images": ["/images/handbag-2.jpg"],
+      "images": [
+        "/images/handbag-2.jpg"
+      ],
       "category": "handbags-wallets",
-      "tags": ["quilted", "shoulder", "luxury", "women"],
+      "tags": [
+        "quilted",
+        "shoulder",
+        "luxury",
+        "women"
+      ],
       "inStock": true,
       "featured": true,
       "newArrival": false
@@ -102,9 +151,16 @@
       "slug": "mini-satchel-bag",
       "description": "A cute and compact mini satchel with top handle and crossbody strap. Perfect for outings when you need just the essentials. Smooth pebbled leather exterior.",
       "price": 6499,
-      "images": ["/images/handbag-1.jpg"],
+      "images": [
+        "/images/handbag-1.jpg"
+      ],
       "category": "handbags-wallets",
-      "tags": ["mini", "satchel", "compact", "women"],
+      "tags": [
+        "mini",
+        "satchel",
+        "compact",
+        "women"
+      ],
       "inStock": true,
       "featured": false,
       "newArrival": true
@@ -115,9 +171,16 @@
       "slug": "slim-card-holder-wallet",
       "description": "An ultra-slim card holder crafted from genuine leather. Holds up to 6 cards with an easy-access slot. Minimalist design that fits neatly in any pocket.",
       "price": 1999,
-      "images": ["/images/wallet-1.jpg"],
+      "images": [
+        "/images/wallet-1.jpg"
+      ],
       "category": "handbags-wallets",
-      "tags": ["card-holder", "slim", "minimalist", "unisex"],
+      "tags": [
+        "card-holder",
+        "slim",
+        "minimalist",
+        "unisex"
+      ],
       "inStock": true,
       "featured": false,
       "newArrival": false
@@ -129,9 +192,16 @@
       "description": "A full-size zip-around wallet with 12 card slots, dual bill compartments, coin zip pocket, and phone sleeve. Elegant floral embossed leather exterior.",
       "price": 4299,
       "originalPrice": 5499,
-      "images": ["/images/wallet-1.jpg"],
+      "images": [
+        "/images/wallet-1.jpg"
+      ],
       "category": "handbags-wallets",
-      "tags": ["wallet", "ladies", "zip", "organiser"],
+      "tags": [
+        "wallet",
+        "ladies",
+        "zip",
+        "organiser"
+      ],
       "inStock": true,
       "featured": false,
       "newArrival": true
@@ -143,9 +213,16 @@
       "description": "A premium leather backpack blending style and function. Padded laptop sleeve, multiple compartments, antique brass zippers, and comfortable adjustable straps.",
       "price": 16999,
       "originalPrice": 21999,
-      "images": ["/images/handbag-2.jpg"],
+      "images": [
+        "/images/handbag-2.jpg"
+      ],
       "category": "handbags-wallets",
-      "tags": ["backpack", "leather", "laptop", "unisex"],
+      "tags": [
+        "backpack",
+        "leather",
+        "laptop",
+        "unisex"
+      ],
       "inStock": true,
       "featured": false,
       "newArrival": false
@@ -156,666 +233,1015 @@
       "slug": "mens-bifold-dress-wallet",
       "description": "A sleek bifold wallet for the modern gentleman. Made from smooth genuine leather with RFID blocking lining. Slim profile with 6 card slots and 2 note sections.",
       "price": 2999,
-      "images": ["/images/wallet-1.jpg"],
+      "images": [
+        "/images/wallet-1.jpg"
+      ],
       "category": "handbags-wallets",
-      "tags": ["wallet", "mens", "RFID", "bifold"],
+      "tags": [
+        "wallet",
+        "mens",
+        "RFID",
+        "bifold"
+      ],
       "inStock": true,
       "featured": false,
       "newArrival": true
     },
     {
       "id": "pf-001",
-      "name": "Midnight Oud Perfume",
-      "slug": "midnight-oud-perfume",
-      "description": "An enchanting blend of rare oud wood, amber, and exotic spices. This long-lasting Eau de Parfum creates an aura of mystery and sophistication that lingers throughout the day.",
-      "price": 8999,
-      "originalPrice": 11999,
-      "images": ["/images/perfume-1.jpg"],
+      "name": "J. Essence For Her",
+      "slug": "j-essence-for-her",
+      "description": "Warm oriental fragrance for women blending rich amber, soft florals, and musk. Bold, feminine, and long-lasting. 100ml EDP.",
+      "price": 1899,
+      "originalPrice": 2699,
+      "images": [
+        "/images/perfume-essence-1.jpg",
+        "/images/perfume-essence-2.jpg"
+      ],
       "category": "perfumes",
-      "tags": ["oud", "perfume", "luxury", "unisex"],
+      "tags": [
+        "perfume",
+        "women",
+        "floral",
+        "j-brand",
+        "eau-de-parfum"
+      ],
       "inStock": true,
       "featured": true,
       "newArrival": false
     },
     {
       "id": "pf-002",
-      "name": "Rose Garden Eau de Parfum",
-      "slug": "rose-garden-perfume",
-      "description": "A delicate bouquet of fresh roses, jasmine, and peony. This feminine fragrance captures the essence of a blooming garden in springtime.",
-      "price": 6499,
-      "originalPrice": 7999,
-      "images": ["/images/perfume-2.jpg"],
+      "name": "Ameer Al Oud Original",
+      "slug": "ameer-al-oud-original",
+      "description": "Deep Arabian oud fragrance with notes of precious oud wood, amber, and spice. Powerful and long-lasting. 100ml EDP.",
+      "price": 1799,
+      "originalPrice": 2499,
+      "images": [
+        "/images/perfume-ameer-al-oud-1.webp",
+        "/images/perfume-ameer-al-oud-2.webp"
+      ],
       "category": "perfumes",
-      "tags": ["floral", "perfume", "women", "fresh"],
+      "tags": [
+        "perfume",
+        "oud",
+        "arabic",
+        "unisex",
+        "eau-de-parfum"
+      ],
+      "inStock": true,
+      "featured": true,
+      "newArrival": false
+    },
+    {
+      "id": "pf-003",
+      "name": "Ameer Al Oud Gift Pack with Teddy",
+      "slug": "ameer-al-oud-gift-pack",
+      "description": "2-in-1 gift bundle \u2014 Ameer Al Oud 100ml EDP paired with a soft plush teddy bear. The perfect gift for any occasion.",
+      "price": 2499,
+      "originalPrice": 3499,
+      "images": [
+        "/images/perfume-ameer-gift-1.jpg",
+        "/images/perfume-ameer-gift-2.jpg"
+      ],
+      "category": "perfumes",
+      "tags": [
+        "perfume",
+        "gift",
+        "bundle",
+        "oud",
+        "teddy"
+      ],
       "inStock": true,
       "featured": false,
       "newArrival": true
     },
     {
-      "id": "pf-003",
-      "name": "Midnight Musk Cologne",
-      "slug": "midnight-musk-cologne",
-      "description": "A bold and masculine fragrance combining musk, sandalwood, and citrus notes. Perfect for the modern gentleman who appreciates timeless elegance.",
-      "price": 7499,
-      "originalPrice": 8999,
-      "images": ["/images/perfume-3.jpg"],
-      "category": "perfumes",
-      "tags": ["cologne", "musk", "mens", "bold"],
-      "inStock": true,
-      "featured": false,
-      "newArrival": false
-    },
-    {
       "id": "pf-004",
-      "name": "Arabian Nights Oud Spray",
-      "slug": "arabian-nights-oud-spray",
-      "description": "Inspired by the souks of the Middle East, this luxurious oud spray weaves together rose, saffron, and dark oud. A statement fragrance for those who dare to be different.",
-      "price": 11999,
-      "originalPrice": 14999,
-      "images": ["/images/perfume-1.jpg"],
+      "name": "Janan Gold Edition",
+      "slug": "janan-gold-edition",
+      "description": "Luxurious mens fragrance with deep woods, warm spices, and golden amber. A bold statement scent. 100ml EDP.",
+      "price": 2999,
+      "originalPrice": 4499,
+      "images": [
+        "/images/perfume-janan-gold-1.webp",
+        "/images/perfume-janan-gold-2.webp"
+      ],
       "category": "perfumes",
-      "tags": ["oud", "arabian", "luxury", "unisex"],
+      "tags": [
+        "perfume",
+        "men",
+        "luxury",
+        "j-brand",
+        "gold",
+        "eau-de-parfum"
+      ],
       "inStock": true,
       "featured": true,
       "newArrival": false
     },
     {
       "id": "pf-005",
-      "name": "Lavender Bloom Eau de Toilette",
-      "slug": "lavender-bloom-eau-de-toilette",
-      "description": "A calming and refreshing fragrance built around French lavender, light musk, and clean white woods. Ideal for daytime wear and office use.",
-      "price": 5499,
-      "images": ["/images/perfume-2.jpg"],
+      "name": "Wanted by Junaid Jamshed",
+      "slug": "wanted-by-junaid-jamshed",
+      "description": "Rich oriental scent with amber oud, dark woods, and warm musk. Magnetic and unforgettable. 100ml.",
+      "price": 2299,
+      "originalPrice": 3299,
+      "images": [
+        "/images/perfume-wanted-1.jpg",
+        "/images/perfume-wanted-2.jpg"
+      ],
       "category": "perfumes",
-      "tags": ["lavender", "fresh", "daily", "unisex"],
+      "tags": [
+        "perfume",
+        "men",
+        "oud",
+        "arabic",
+        "junaid-jamshed"
+      ],
       "inStock": true,
       "featured": false,
       "newArrival": true
     },
     {
       "id": "pf-006",
-      "name": "Citrus Burst Cologne",
-      "slug": "citrus-burst-cologne",
-      "description": "An energising citrus explosion of bergamot, lemon zest, and grapefruit, anchored by a warm vetiver base. The ultimate summer fragrance for active lifestyles.",
-      "price": 4999,
-      "originalPrice": 6499,
-      "images": ["/images/perfume-3.jpg"],
+      "name": "Flora by Junaid Jamshed",
+      "slug": "flora-by-junaid-jamshed",
+      "description": "Delicate floral fragrance with fresh rose petals, soft jasmine, and a powdery base. Light, feminine, and romantic. 100ml.",
+      "price": 1699,
+      "originalPrice": 2499,
+      "images": [
+        "/images/perfume-flora-1.jpg",
+        "/images/perfume-flora-2.jpg"
+      ],
       "category": "perfumes",
-      "tags": ["citrus", "fresh", "summer", "mens"],
+      "tags": [
+        "perfume",
+        "women",
+        "floral",
+        "rose",
+        "junaid-jamshed"
+      ],
       "inStock": true,
       "featured": false,
       "newArrival": true
     },
     {
-      "id": "pf-007",
-      "name": "Amber Velvet EDP",
-      "slug": "amber-velvet-edp",
-      "description": "A rich and warm amber fragrance layered with vanilla, caramel, and patchouli. Seductive and long-lasting — perfect for evenings and special occasions.",
-      "price": 9499,
-      "originalPrice": 12499,
-      "images": ["/images/perfume-1.jpg"],
-      "category": "perfumes",
-      "tags": ["amber", "vanilla", "evening", "women"],
-      "inStock": true,
-      "featured": false,
-      "newArrival": false
-    },
-    {
-      "id": "pf-008",
-      "name": "White Musk Perfume Oil",
-      "slug": "white-musk-perfume-oil",
-      "description": "A pure and sensual white musk perfume oil that blends seamlessly with your skin chemistry. Alcohol-free, long-lasting, and suitable for daily use.",
-      "price": 3499,
-      "images": ["/images/perfume-2.jpg"],
-      "category": "perfumes",
-      "tags": ["musk", "oil", "daily", "unisex"],
-      "inStock": true,
-      "featured": false,
-      "newArrival": true
-    },
-    {
-      "id": "pf-009",
-      "name": "Ocean Breeze Eau Fraiche",
-      "slug": "ocean-breeze-eau-fraiche",
-      "description": "Fresh oceanic notes of sea salt, driftwood, and aquatic florals create a crisp, clean fragrance that evokes a cool sea breeze. Light and perfect for warm weather.",
-      "price": 5999,
-      "images": ["/images/perfume-3.jpg"],
-      "category": "perfumes",
-      "tags": ["aquatic", "fresh", "summer", "unisex"],
-      "inStock": true,
-      "featured": false,
-      "newArrival": false
-    },
-    {
-      "id": "pf-010",
-      "name": "Sandalwood Royale EDP",
-      "slug": "sandalwood-royale-edp",
-      "description": "Deep and creamy Indian sandalwood blended with cardamom, rose, and a hint of oud. A timeless Oriental fragrance with exceptional longevity.",
-      "price": 10499,
-      "originalPrice": 13499,
-      "images": ["/images/perfume-1.jpg"],
-      "category": "perfumes",
-      "tags": ["sandalwood", "oriental", "luxury", "unisex"],
-      "inStock": true,
-      "featured": false,
-      "newArrival": true
-    },
-    {
-      "id": "pf-011",
-      "name": "Vanilla Rouge Parfum",
-      "slug": "vanilla-rouge-parfum",
-      "description": "An irresistible blend of Madagascar vanilla, warm spices, and red berries. Sweet yet sophisticated — a crowd favourite for all seasons.",
-      "price": 7999,
-      "originalPrice": 9499,
-      "images": ["/images/perfume-2.jpg"],
-      "category": "perfumes",
-      "tags": ["vanilla", "sweet", "women", "all-season"],
-      "inStock": true,
-      "featured": false,
-      "newArrival": false
-    },
-    {
-      "id": "pf-012",
-      "name": "Black Orchid Intense EDP",
-      "slug": "black-orchid-intense-edp",
-      "description": "A seductive and dark fragrance inspired by rare black orchid. Black truffle, ylang-ylang, and dark chocolate weave together for an unforgettably rich scent.",
-      "price": 13999,
-      "originalPrice": 17499,
-      "images": ["/images/perfume-3.jpg"],
-      "category": "perfumes",
-      "tags": ["orchid", "dark", "luxury", "unisex"],
+      "id": "co-001",
+      "name": "Urapra Glycolic Acid 7% Face Toner",
+      "slug": "urapra-glycolic-acid-toner",
+      "description": "Clinical-strength glycolic acid 7% toning solution with amino acids, aloe vera, and ginseng. Exfoliates and brightens for smoother skin. 100ml.",
+      "price": 1299,
+      "originalPrice": 1699,
+      "images": [
+        "/images/cosmetic-glycolic-toner.webp"
+      ],
+      "category": "cosmetics",
+      "tags": [
+        "toner",
+        "glycolic-acid",
+        "anti-aging",
+        "skincare",
+        "exfoliant"
+      ],
       "inStock": true,
       "featured": true,
+      "newArrival": false
+    },
+    {
+      "id": "co-002",
+      "name": "Vitamin C Deep Cleanser 100ml",
+      "slug": "vitamin-c-deep-cleanser",
+      "description": "Vitamin C deep cleanser that brightens dull skin and removes impurities. Leaves face feeling fresh and radiant. 100ml.",
+      "price": 1749,
+      "originalPrice": 2299,
+      "images": [
+        "/images/cosmetic-vitamin-c-cleanser.jpg"
+      ],
+      "category": "cosmetics",
+      "tags": [
+        "cleanser",
+        "vitamin-c",
+        "brightening",
+        "face-wash",
+        "skincare"
+      ],
+      "inStock": true,
+      "featured": false,
+      "newArrival": true
+    },
+    {
+      "id": "co-003",
+      "name": "Whitening Alpha Arbutin Serum",
+      "slug": "whitening-alpha-arbutin-serum",
+      "description": "Alpha arbutin whitening serum that targets dark spots and uneven skin tone. Lightweight formula absorbs quickly.",
+      "price": 1499,
+      "originalPrice": 1999,
+      "images": [
+        "/images/cosmetic-alpha-arbutin-serum.webp"
+      ],
+      "category": "cosmetics",
+      "tags": [
+        "serum",
+        "alpha-arbutin",
+        "whitening",
+        "brightening",
+        "skincare"
+      ],
+      "inStock": true,
+      "featured": true,
+      "newArrival": false
+    },
+    {
+      "id": "co-004",
+      "name": "Mocmallure Lip Gloss Set 12pcs",
+      "slug": "mocmallure-lip-gloss-set-12pcs",
+      "description": "Mocmallure 12-piece lip gloss set in vibrant shades with glossy finish. Perfect for every mood and occasion.",
+      "price": 1349,
+      "originalPrice": 1799,
+      "images": [
+        "/images/cosmetic-lip-gloss-set.jpg"
+      ],
+      "category": "cosmetics",
+      "tags": [
+        "lip-gloss",
+        "makeup",
+        "lip-set",
+        "gift",
+        "glossy"
+      ],
+      "inStock": true,
+      "featured": true,
+      "newArrival": true
+    },
+    {
+      "id": "co-005",
+      "name": "Papaya White SPF 60 Sunblock 100ml",
+      "slug": "papaya-white-spf60-sunblock",
+      "description": "SPF 60 sunblock for face and body with papaya extracts. Lightweight, non-greasy, and suitable for daily use. 100ml.",
+      "price": 899,
+      "originalPrice": 1199,
+      "images": [
+        "/images/cosmetic-papaya-sunblock.jpg"
+      ],
+      "category": "cosmetics",
+      "tags": [
+        "sunblock",
+        "spf60",
+        "papaya",
+        "sun-protection",
+        "brightening"
+      ],
+      "inStock": true,
+      "featured": false,
+      "newArrival": false
+    },
+    {
+      "id": "co-006",
+      "name": "Skin Brightening Face Serum",
+      "slug": "skin-brightening-face-serum",
+      "description": "Brightening face serum packed with active ingredients to even skin tone, reduce dullness, and restore natural glow.",
+      "price": 1499,
+      "originalPrice": 1999,
+      "images": [
+        "/images/cosmetic-skin-brightening-serum.webp"
+      ],
+      "category": "cosmetics",
+      "tags": [
+        "serum",
+        "brightening",
+        "glow",
+        "skincare",
+        "dark-spots"
+      ],
+      "inStock": true,
+      "featured": false,
+      "newArrival": true
+    },
+    {
+      "id": "co-007",
+      "name": "Orange Enzymes Exfoliating Brightening Gel",
+      "slug": "orange-enzymes-exfoliating-gel",
+      "description": "Orange enzyme exfoliating gel that gently removes dead skin cells and brightens complexion. Suitable for all skin types.",
+      "price": 949,
+      "originalPrice": 1299,
+      "images": [
+        "/images/cosmetic-orange-enzymes-gel.webp"
+      ],
+      "category": "cosmetics",
+      "tags": [
+        "exfoliator",
+        "orange-enzymes",
+        "brightening",
+        "gel",
+        "skincare"
+      ],
+      "inStock": true,
+      "featured": false,
+      "newArrival": false
+    },
+    {
+      "id": "co-008",
+      "name": "Dr. Rashel Vitamin C Anti-Aging Face Serum",
+      "slug": "dr-rashel-vitamin-c-face-serum",
+      "description": "Dr. Rashel Vitamin C serum with hyaluronic acid for anti-aging, brightening, and firming. 50ml dropper bottle.",
+      "price": 1399,
+      "originalPrice": 1899,
+      "images": [
+        "/images/cosmetic-dr-rashel-serum.jpg"
+      ],
+      "category": "cosmetics",
+      "tags": [
+        "serum",
+        "vitamin-c",
+        "anti-aging",
+        "dr-rashel",
+        "hyaluronic-acid"
+      ],
+      "inStock": true,
+      "featured": true,
+      "newArrival": false
+    },
+    {
+      "id": "co-009",
+      "name": "Haya Glutathione Skin Whitening Serum",
+      "slug": "haya-glutathione-whitening-serum",
+      "description": "Haya glutathione skin whitening serum for a brighter, more even complexion. Fast-absorbing formula. 20ml.",
+      "price": 1199,
+      "originalPrice": 1599,
+      "images": [
+        "/images/cosmetic-glutathione-serum.webp"
+      ],
+      "category": "cosmetics",
+      "tags": [
+        "serum",
+        "glutathione",
+        "whitening",
+        "brightening",
+        "skincare"
+      ],
+      "inStock": true,
+      "featured": false,
+      "newArrival": true
+    },
+    {
+      "id": "co-010",
+      "name": "Mini Rechargeable Pocket Shaver",
+      "slug": "mini-rechargeable-pocket-shaver",
+      "description": "Compact rechargeable pocket shaver for men and women. Portable, quiet, and perfect for travel or on-the-go grooming.",
+      "price": 1399,
+      "originalPrice": 1899,
+      "images": [
+        "/images/cosmetic-pocket-shaver.webp"
+      ],
+      "category": "cosmetics",
+      "tags": [
+        "shaver",
+        "grooming",
+        "rechargeable",
+        "travel",
+        "men",
+        "women"
+      ],
+      "inStock": true,
+      "featured": false,
+      "newArrival": false
+    },
+    {
+      "id": "co-011",
+      "name": "Sasimi Pearl White Serum 30ml",
+      "slug": "sasimi-pearl-white-serum",
+      "description": "Sasimi Pearl White serum with brightening pearl extracts for a glowing, luminous complexion. 30ml.",
+      "price": 1399,
+      "originalPrice": 1799,
+      "images": [
+        "/images/cosmetic-pearl-white-serum.jpg"
+      ],
+      "category": "cosmetics",
+      "tags": [
+        "serum",
+        "pearl",
+        "brightening",
+        "glow",
+        "skincare"
+      ],
+      "inStock": true,
+      "featured": true,
+      "newArrival": false
+    },
+    {
+      "id": "co-012",
+      "name": "Rechargeable Facial Hair Removal Pen",
+      "slug": "rechargeable-facial-hair-removal-pen",
+      "description": "Rechargeable facial hair removal pen for women. Painless, precise, and easy to use on face and body.",
+      "price": 1399,
+      "originalPrice": 1899,
+      "images": [
+        "/images/cosmetic-hair-removal-pen.webp"
+      ],
+      "category": "cosmetics",
+      "tags": [
+        "hair-removal",
+        "grooming",
+        "women",
+        "rechargeable",
+        "facial"
+      ],
+      "inStock": true,
+      "featured": false,
       "newArrival": true
     },
     {
       "id": "wt-001",
-      "name": "Chronograph Classic Watch",
-      "slug": "chronograph-classic-watch",
-      "description": "A sophisticated timepiece featuring a stainless steel case, genuine leather strap, and precise quartz movement. Water-resistant up to 50 meters with date display.",
-      "price": 15999,
-      "originalPrice": 19999,
-      "images": ["/images/watch-1.jpg"],
+      "name": "Crown H90 Ultra 2 Smart Watch",
+      "slug": "crown-h90-ultra-smart-watch",
+      "description": "Crown H90 Ultra 2 Smart Watch with GPS, NFC, wireless charging, face dial, 7 sport modes, and weather forecast. Includes multicolour strap set.",
+      "price": 3149,
+      "originalPrice": 4099,
+      "images": [
+        "/images/watch-crown-h90.webp"
+      ],
       "category": "watches",
-      "tags": ["watch", "chronograph", "mens", "classic"],
+      "tags": [
+        "smart-watch",
+        "gps",
+        "nfc",
+        "wireless-charging",
+        "sports"
+      ],
       "inStock": true,
       "featured": true,
-      "newArrival": false
+      "newArrival": true
     },
     {
       "id": "wt-002",
-      "name": "Minimalist Rose Gold Watch",
-      "slug": "minimalist-rose-gold-watch",
-      "description": "Elegant simplicity meets modern design. This minimalist watch features a rose gold-plated case, mesh strap, and Japanese quartz movement for precise timekeeping.",
-      "price": 11999,
-      "originalPrice": 14999,
-      "images": ["/images/watch-2.jpg"],
+      "name": "Men's Stainless Steel Analog Watch",
+      "slug": "mens-stainless-steel-analog-watch",
+      "description": "Classic stainless steel analog watch with skin-friendly strap and precise quartz movement. Suits formal and casual wear.",
+      "price": 4999,
+      "originalPrice": 6499,
+      "images": [
+        "/images/watch-ss-analog.webp"
+      ],
       "category": "watches",
-      "tags": ["watch", "minimalist", "women", "rose-gold"],
+      "tags": [
+        "analog",
+        "stainless-steel",
+        "mens",
+        "formal",
+        "quartz"
+      ],
       "inStock": true,
       "featured": false,
-      "newArrival": true
+      "newArrival": false
     },
     {
       "id": "wt-003",
-      "name": "Sport Digital Watch",
-      "slug": "sport-digital-watch",
-      "description": "A rugged sports watch with heart rate monitor, step counter, and water resistance up to 100 meters. Features LED backlight and long-lasting battery.",
-      "price": 6999,
-      "images": ["/images/watch-3.jpg"],
+      "name": "Men's Stainless Steel Watch with Date Display",
+      "slug": "mens-stainless-steel-date-watch",
+      "description": "Premium stainless steel analogue watch with date display window. Clean dial, robust bracelet, built for professionals.",
+      "price": 6249,
+      "originalPrice": 8099,
+      "images": [
+        "/images/watch-ss-date.jpeg"
+      ],
       "category": "watches",
-      "tags": ["watch", "sports", "digital", "fitness"],
-      "inStock": true,
-      "featured": false,
-      "newArrival": true
-    },
-    {
-      "id": "wt-004",
-      "name": "Luxury Gold Dress Watch",
-      "slug": "luxury-gold-dress-watch",
-      "description": "A statement dress watch with a gold-plated stainless steel case, sapphire crystal glass, and a rich brown crocodile-embossed leather strap. Swiss quartz movement.",
-      "price": 24999,
-      "originalPrice": 31999,
-      "images": ["/images/watch-1.jpg"],
-      "category": "watches",
-      "tags": ["watch", "gold", "dress", "luxury"],
+      "tags": [
+        "analog",
+        "stainless-steel",
+        "date-display",
+        "mens",
+        "formal"
+      ],
       "inStock": true,
       "featured": true,
       "newArrival": false
     },
     {
-      "id": "wt-005",
-      "name": "Ladies Crystal Bracelet Watch",
-      "slug": "ladies-crystal-bracelet-watch",
-      "description": "A stunning ladies watch featuring a crystal-encrusted bezel and a flexible bracelet strap. Slim profile with a silver-white dial and Roman numeral indices.",
-      "price": 9499,
-      "originalPrice": 11999,
-      "images": ["/images/watch-2.jpg"],
+      "id": "wt-004",
+      "name": "Men's Modern Stylish Watch",
+      "slug": "mens-modern-stylish-watch",
+      "description": "Contemporary watch with a striking dial, durable mineral crystal glass, and comfortable adjustable strap. Day to night wear.",
+      "price": 3499,
+      "originalPrice": 4499,
+      "images": [
+        "/images/watch-modern-stylish.webp"
+      ],
       "category": "watches",
-      "tags": ["watch", "ladies", "crystal", "bracelet"],
+      "tags": [
+        "mens",
+        "modern",
+        "stylish",
+        "casual",
+        "formal"
+      ],
       "inStock": true,
       "featured": false,
       "newArrival": true
     },
     {
-      "id": "wt-006",
-      "name": "Men's Automatic Mechanical Watch",
-      "slug": "mens-automatic-mechanical-watch",
-      "description": "A prestige automatic watch with visible movement through sapphire caseback. Stainless steel case, exhibition dial, 40-hour power reserve. No battery ever needed.",
-      "price": 29999,
-      "originalPrice": 39999,
-      "images": ["/images/watch-1.jpg"],
+      "id": "wt-005",
+      "name": "Bluetooth 5 Smart Watch with 7 Straps",
+      "slug": "bluetooth-smart-watch-7-straps",
+      "description": "Bluetooth 5.0 smart watch with 7 interchangeable straps, heart rate, sleep tracking, and full-touch display.",
+      "price": 4099,
+      "originalPrice": 5299,
+      "images": [
+        "/images/watch-bluetooth-smart.jpg"
+      ],
       "category": "watches",
-      "tags": ["automatic", "mechanical", "luxury", "mens"],
+      "tags": [
+        "smart-watch",
+        "bluetooth",
+        "fitness",
+        "multicolor",
+        "7-straps"
+      ],
       "inStock": true,
-      "featured": false,
+      "featured": true,
+      "newArrival": false
+    },
+    {
+      "id": "wt-006",
+      "name": "Tissot Chronograph Watch for Men",
+      "slug": "tissot-chronograph-watch-men",
+      "description": "Stainless steel chronograph with tachymeter bezel and multi-function sub-dials. A bold statement timepiece.",
+      "price": 5799,
+      "originalPrice": 7499,
+      "images": [
+        "/images/watch-tissot-chrono.webp"
+      ],
+      "category": "watches",
+      "tags": [
+        "chronograph",
+        "stainless-steel",
+        "tissot",
+        "luxury",
+        "mens"
+      ],
+      "inStock": true,
+      "featured": true,
       "newArrival": false
     },
     {
       "id": "wt-007",
-      "name": "Smart Fitness Tracker Band",
-      "slug": "smart-fitness-tracker-band",
-      "description": "Track your health with this sleek fitness band. Features heart rate, SpO2, sleep tracking, 7-day battery, and 50-meter water resistance. Compatible with Android & iOS.",
-      "price": 5999,
-      "images": ["/images/watch-3.jpg"],
+      "name": "Black Smart Watch \u2014 Long Battery & Fast Charge",
+      "slug": "black-smart-watch-long-battery",
+      "description": "Sleek all-black smart watch with ultra-long battery, fast charging, health monitoring, and real-time notifications.",
+      "price": 2849,
+      "originalPrice": 3699,
+      "images": [
+        "/images/watch-black-smart.webp"
+      ],
       "category": "watches",
-      "tags": ["smartwatch", "fitness", "tracker", "unisex"],
+      "tags": [
+        "smart-watch",
+        "black",
+        "long-battery",
+        "fast-charge",
+        "fitness"
+      ],
       "inStock": true,
       "featured": false,
       "newArrival": true
     },
     {
       "id": "wt-008",
-      "name": "Couple Watch Gift Set",
-      "slug": "couple-watch-gift-set",
-      "description": "A perfectly matched his-and-hers watch set presented in a premium gift box. Identical design in two sizes — a thoughtful gift for anniversaries, weddings, and milestones.",
-      "price": 19999,
-      "originalPrice": 25999,
-      "images": ["/images/watch-2.jpg"],
+      "name": "Men's Black Arabic Dial Watch",
+      "slug": "mens-black-arabic-dial-watch",
+      "description": "Arabic numeral black dial watch with lightweight strap. Unique, comfortable, and perfect for all seasons.",
+      "price": 2459,
+      "originalPrice": 3199,
+      "images": [
+        "/images/watch-arabic-dial.webp"
+      ],
       "category": "watches",
-      "tags": ["couple", "gift", "set", "matching"],
-      "inStock": true,
-      "featured": false,
-      "newArrival": false
-    },
-    {
-      "id": "wt-009",
-      "name": "Diver's Steel Watch",
-      "slug": "divers-steel-watch",
-      "description": "A professional-style diver watch with a unidirectional rotating bezel, screw-down crown, and 200-meter water resistance. Bold and masculine on a stainless steel bracelet.",
-      "price": 17999,
-      "originalPrice": 22999,
-      "images": ["/images/watch-1.jpg"],
-      "category": "watches",
-      "tags": ["diver", "steel", "sports", "mens"],
+      "tags": [
+        "arabic",
+        "black",
+        "mens",
+        "casual",
+        "all-season"
+      ],
       "inStock": true,
       "featured": false,
       "newArrival": true
     },
     {
-      "id": "wt-010",
-      "name": "Vintage Leather Strap Watch",
-      "slug": "vintage-leather-strap-watch",
-      "description": "A classic vintage-style watch with a distressed leather strap and aged dial. Evokes the charm of 1950s watchmaking. Perfect for heritage-style dressing.",
-      "price": 8499,
-      "images": ["/images/watch-3.jpg"],
+      "id": "wt-009",
+      "name": "Men's Yacht-Master II Blue Dial Watch",
+      "slug": "mens-yacht-master-blue-dial-watch",
+      "description": "Nautical-inspired blue dial watch with stainless steel bracelet and luminous hands. Sporty yet sophisticated.",
+      "price": 5700,
+      "originalPrice": 7399,
+      "images": [
+        "/images/watch-rolex-yacht.webp"
+      ],
       "category": "watches",
-      "tags": ["vintage", "leather", "classic", "unisex"],
+      "tags": [
+        "blue-dial",
+        "stainless-steel",
+        "luxury",
+        "sports",
+        "mens"
+      ],
+      "inStock": true,
+      "featured": true,
+      "newArrival": false
+    },
+    {
+      "id": "wt-010",
+      "name": "Lexus Silver & Gold Quartz Watch",
+      "slug": "lexus-silver-gold-quartz-watch",
+      "description": "Two-tone silver and gold stainless steel quartz watch. Versatile enough for the boardroom or a night out.",
+      "price": 5000,
+      "originalPrice": 6499,
+      "images": [
+        "/images/watch-lexus-ss.webp"
+      ],
+      "category": "watches",
+      "tags": [
+        "lexus",
+        "silver",
+        "gold",
+        "quartz",
+        "stainless-steel",
+        "formal"
+      ],
       "inStock": true,
       "featured": false,
       "newArrival": false
     },
     {
       "id": "wt-011",
-      "name": "Ultra-Thin Dress Watch",
-      "slug": "ultra-thin-dress-watch",
-      "description": "At just 6mm thin, this ultra-slim dress watch is the pinnacle of understated elegance. Clean white dial, stick indices, and a slim leather strap — pure class.",
-      "price": 12499,
-      "originalPrice": 15999,
-      "images": ["/images/watch-2.jpg"],
+      "name": "Classic Stainless Steel Wrist Watch",
+      "slug": "classic-stainless-steel-wrist-watch",
+      "description": "Polished stainless steel classic watch with clean dial and reliable quartz movement. A timeless wardrobe essential.",
+      "price": 5660,
+      "originalPrice": 7399,
+      "images": [
+        "/images/watch-rolex-classic.webp"
+      ],
       "category": "watches",
-      "tags": ["slim", "dress", "elegant", "unisex"],
+      "tags": [
+        "classic",
+        "stainless-steel",
+        "luxury",
+        "mens",
+        "formal"
+      ],
+      "inStock": true,
+      "featured": true,
+      "newArrival": false
+    },
+    {
+      "id": "wt-012",
+      "name": "Men's Gold Stainless Steel Quartz Watch",
+      "slug": "mens-gold-stainless-steel-quartz-watch",
+      "description": "Gold-tone stainless steel quartz watch with adjustable link bracelet and elegant sunburst dial.",
+      "price": 3399,
+      "originalPrice": 4399,
+      "images": [
+        "/images/watch-gold-quartz.webp"
+      ],
+      "category": "watches",
+      "tags": [
+        "gold",
+        "stainless-steel",
+        "quartz",
+        "mens",
+        "luxury"
+      ],
       "inStock": true,
       "featured": false,
       "newArrival": true
     },
     {
-      "id": "wt-012",
-      "name": "Pilot Aviator Watch",
-      "slug": "pilot-aviator-watch",
-      "description": "Inspired by cockpit instruments, this bold aviator watch features a large 44mm case, oversized crown, luminous hands, and a matte black dial. Adventure awaits.",
-      "price": 13999,
-      "originalPrice": 17999,
-      "images": ["/images/watch-1.jpg"],
+      "id": "wt-013",
+      "name": "Men's Modern Slim Watch",
+      "slug": "mens-modern-slim-watch",
+      "description": "Ultra-slim modern watch with a clean dial and fine strap. Lightweight, minimalist, and great value.",
+      "price": 1799,
+      "originalPrice": 2299,
+      "images": [
+        "/images/watch-modern-slim.webp"
+      ],
       "category": "watches",
-      "tags": ["pilot", "aviator", "bold", "mens"],
+      "tags": [
+        "slim",
+        "modern",
+        "mens",
+        "casual",
+        "minimalist"
+      ],
+      "inStock": true,
+      "featured": false,
+      "newArrival": true
+    },
+    {
+      "id": "wt-014",
+      "name": "Men's Silicone Sports Watch \u2014 Water Resistant",
+      "slug": "mens-silicone-sports-watch",
+      "description": "Water-resistant sports watch with durable black and olive silicone strap. Built for the gym, outdoors, and everyday wear.",
+      "price": 3070,
+      "originalPrice": 3999,
+      "images": [
+        "/images/watch-silicone-sports.webp"
+      ],
+      "category": "watches",
+      "tags": [
+        "sports",
+        "silicone",
+        "water-resistant",
+        "mens",
+        "casual"
+      ],
       "inStock": true,
       "featured": false,
       "newArrival": false
     },
     {
       "id": "kd-001",
-      "name": "Children's Adventure Book Set",
-      "slug": "children-adventure-book-set",
-      "description": "A collection of 5 beautifully illustrated adventure stories that spark imagination and creativity. Perfect for children aged 5-10. Includes moral lessons and interactive activities.",
-      "price": 2499,
-      "images": ["/images/book-1.jpg"],
+      "name": "36 Pcs Mix Shape Magnetic Toys",
+      "slug": "mix-shape-magnetic-toys",
+      "description": "Set of 36 mixed-shape magnetic pieces including stars, hearts, ovals, and spheres. Great for building creativity and hand coordination in kids.",
+      "price": 779,
+      "originalPrice": 999,
+      "images": [
+        "/images/kids-magnetic-shapes.webp"
+      ],
       "category": "kids-products",
-      "tags": ["books", "kids", "educational", "stories"],
+      "tags": [
+        "magnetic",
+        "toys",
+        "kids",
+        "educational"
+      ],
       "inStock": true,
       "featured": false,
       "newArrival": true
     },
     {
       "id": "kd-002",
-      "name": "Organic Baby Care Kit",
-      "slug": "organic-baby-care-kit",
-      "description": "A complete care kit with organic baby lotion, shampoo, diaper cream, and powder. Made with natural ingredients, hypoallergenic, and pediatrician-approved.",
-      "price": 4499,
-      "originalPrice": 5999,
-      "images": ["/images/baby-1.jpg"],
+      "name": "Magic Water Canvas Art Set",
+      "slug": "magic-water-canvas-art",
+      "description": "Mess-free water painting canvas for kids. Just dip the brush in water and paint \u2014 colours appear like magic and fade when dry for endless reuse.",
+      "price": 830,
+      "originalPrice": 1049,
+      "images": [
+        "/images/kids-water-canvas.jpeg"
+      ],
       "category": "kids-products",
-      "tags": ["baby", "organic", "care", "natural"],
+      "tags": [
+        "art",
+        "craft",
+        "kids",
+        "painting"
+      ],
       "inStock": true,
-      "featured": true,
-      "newArrival": false
+      "featured": false,
+      "newArrival": true
     },
     {
       "id": "kd-003",
-      "name": "Educational Puzzle Collection",
-      "slug": "educational-puzzle-collection",
-      "description": "A set of 4 educational puzzles that develop problem-solving skills and hand-eye coordination. Made from eco-friendly materials with vibrant colors.",
-      "price": 2999,
-      "images": ["/images/kids-1.jpg"],
+      "name": "Magic Groove Copybook Set with 10 Refills",
+      "slug": "magic-groove-copybook-set",
+      "description": "Handwriting practice copybook for kids 3 and above. Grooved letters guide the pencil for perfect strokes. Comes with 10 refill sheets.",
+      "price": 945,
+      "originalPrice": 1199,
+      "images": [
+        "/images/kids-groove-copybook.webp"
+      ],
       "category": "kids-products",
-      "tags": ["puzzle", "educational", "kids", "toys"],
-      "inStock": true,
-      "featured": false,
-      "newArrival": true
-    },
-    {
-      "id": "kd-004",
-      "name": "Creative Art & Craft Kit",
-      "slug": "creative-art-craft-kit",
-      "description": "Everything a young artist needs in one box — watercolours, crayons, coloured pencils, stencils, and an A4 sketch pad. Encourages creativity and fine motor skills in kids aged 4-12.",
-      "price": 3499,
-      "originalPrice": 4499,
-      "images": ["/images/kids-1.jpg"],
-      "category": "kids-products",
-      "tags": ["art", "craft", "creative", "kids"],
-      "inStock": true,
-      "featured": false,
-      "newArrival": true
-    },
-    {
-      "id": "kd-005",
-      "name": "Mega Building Blocks Set",
-      "slug": "mega-building-blocks-set",
-      "description": "120 pieces of large, durable interlocking blocks in 6 bright colours. Develops spatial thinking and creativity. Compatible with major building block brands. Ages 2+.",
-      "price": 3999,
-      "images": ["/images/kids-1.jpg"],
-      "category": "kids-products",
-      "tags": ["blocks", "building", "toddler", "toys"],
+      "tags": [
+        "education",
+        "writing",
+        "kids",
+        "3+"
+      ],
       "inStock": true,
       "featured": false,
       "newArrival": false
     },
     {
-      "id": "kd-006",
-      "name": "Kids' School Stationery Set",
-      "slug": "kids-school-stationery-set",
-      "description": "A complete back-to-school stationery pack including pencils, eraser, sharpener, ruler, highlighters, and a fun pencil case with a zipper. Perfect for ages 5-14.",
-      "price": 1799,
-      "images": ["/images/book-1.jpg"],
+      "id": "kd-004",
+      "name": "Magic Practice Copybook Set of 4",
+      "slug": "magic-practice-copybook-set",
+      "description": "Set of 4 reusable magic copybooks for kids 3+. Write with water pen and watch letters fade \u2014 practice again and again with no mess.",
+      "price": 965,
+      "originalPrice": 1249,
+      "images": [
+        "/images/kids-magic-copybook.jpeg"
+      ],
       "category": "kids-products",
-      "tags": ["stationery", "school", "pencils", "kids"],
+      "tags": [
+        "education",
+        "writing",
+        "reusable",
+        "kids",
+        "3+"
+      ],
       "inStock": true,
       "featured": false,
+      "newArrival": false
+    },
+    {
+      "id": "kd-005",
+      "name": "8.5\" LCD Writing Tablet for Kids",
+      "slug": "lcd-writing-tablet-kids",
+      "description": "Paperless LCD drawing and writing tablet with one-press erase button. Perfect for drawing, writing practice, and keeping kids entertained anywhere.",
+      "price": 1129,
+      "originalPrice": 1449,
+      "images": [
+        "/images/kids-lcd-tablet.jpg"
+      ],
+      "category": "kids-products",
+      "tags": [
+        "lcd",
+        "tablet",
+        "education",
+        "drawing",
+        "kids"
+      ],
+      "inStock": true,
+      "featured": true,
       "newArrival": true
     },
     {
-      "id": "kd-007",
-      "name": "Toddler Soft Toy Bundle",
-      "slug": "toddler-soft-toy-bundle",
-      "description": "A bundle of 3 super-soft plush toys — a bunny, bear, and elephant. Made from hypoallergenic materials, safe for babies from 0+. Machine washable.",
-      "price": 2799,
-      "originalPrice": 3799,
-      "images": ["/images/baby-1.jpg"],
+      "id": "kd-006",
+      "name": "Wooden City Road Puzzle Set with 2 Cars",
+      "slug": "wooden-city-road-puzzle",
+      "description": "Wooden road puzzle set with interchangeable track pieces and 2 mini cars. Builds spatial thinking and keeps little ones engaged for hours.",
+      "price": 1460,
+      "originalPrice": 1849,
+      "images": [
+        "/images/kids-road-puzzle.jpg"
+      ],
       "category": "kids-products",
-      "tags": ["soft-toy", "plush", "baby", "toddler"],
+      "tags": [
+        "puzzle",
+        "wooden",
+        "cars",
+        "kids",
+        "educational"
+      ],
+      "inStock": true,
+      "featured": false,
+      "newArrival": false
+    },
+    {
+      "id": "kd-007",
+      "name": "Wooden Tracing Workbook Set \u2014 100 Designs",
+      "slug": "wooden-tracing-workbook-set",
+      "description": "100-piece multicolour wooden tracing workbook set for creative and educational play. Develops fine motor skills and early drawing ability.",
+      "price": 1620,
+      "originalPrice": 2049,
+      "images": [
+        "/images/kids-tracing-workbook.jpg"
+      ],
+      "category": "kids-products",
+      "tags": [
+        "tracing",
+        "wooden",
+        "education",
+        "art",
+        "kids"
+      ],
       "inStock": true,
       "featured": false,
       "newArrival": false
     },
     {
       "id": "kd-008",
-      "name": "Kids' Insulated Water Bottle",
-      "slug": "kids-insulated-water-bottle",
-      "description": "A BPA-free stainless steel water bottle with a fun printed design and a secure flip-top lid. Keeps drinks cold for 12 hours. Fits most school bag pockets. 500ml.",
-      "price": 1999,
-      "images": ["/images/kids-1.jpg"],
+      "name": "46 Pcs Dora Explorer Art & Craft Kit",
+      "slug": "dora-explorer-art-craft-kit",
+      "description": "46-piece Dora the Explorer themed art and craft kit in pink and blue. Includes colours, stickers, and activity sheets \u2014 perfect birthday gift.",
+      "price": 1670,
+      "originalPrice": 2149,
+      "images": [
+        "/images/kids-dora-craft.jpg"
+      ],
       "category": "kids-products",
-      "tags": ["water-bottle", "school", "kids", "BPA-free"],
+      "tags": [
+        "dora",
+        "art",
+        "craft",
+        "gift",
+        "kids"
+      ],
       "inStock": true,
-      "featured": false,
-      "newArrival": true
-    },
-    {
-      "id": "kd-009",
-      "name": "Alphabet Flashcard Learning Set",
-      "slug": "alphabet-flashcard-learning-set",
-      "description": "84 double-sided flashcards covering alphabets, numbers, shapes, and colours. Wipe-clean surface, bold illustrations, and fun facts on each card. Ages 2-6.",
-      "price": 1499,
-      "images": ["/images/book-1.jpg"],
-      "category": "kids-products",
-      "tags": ["flashcards", "learning", "alphabet", "toddler"],
-      "inStock": true,
-      "featured": false,
+      "featured": true,
       "newArrival": false
     },
     {
-      "id": "kd-010",
-      "name": "Baby Skincare Essentials Set",
-      "slug": "baby-skincare-essentials-set",
-      "description": "A gentle skincare duo with baby moisturising lotion and a soothing bath wash. Dermatologist tested, tear-free formula. With natural chamomile and aloe vera extracts.",
-      "price": 2699,
-      "originalPrice": 3299,
-      "images": ["/images/baby-1.jpg"],
+      "id": "kd-009",
+      "name": "Beginners Magic Kit \u2014 35 Tricks",
+      "slug": "beginners-magic-kit-35-tricks",
+      "description": "Starter magic kit for kids with 35 easy tricks and illustrated instructions. Builds confidence, performance skills, and endless fun at parties.",
+      "price": 1909,
+      "originalPrice": 2449,
+      "images": [
+        "/images/kids-magic-kit.webp"
+      ],
       "category": "kids-products",
-      "tags": ["baby", "skincare", "gentle", "natural"],
+      "tags": [
+        "magic",
+        "tricks",
+        "kids",
+        "party",
+        "gift"
+      ],
       "inStock": true,
-      "featured": false,
+      "featured": true,
       "newArrival": true
     },
     {
-      "id": "kd-011",
-      "name": "Kids' Colouring Book Mega Pack",
-      "slug": "kids-colouring-book-mega-pack",
-      "description": "A set of 4 themed colouring books — animals, vehicles, fairy tales, and mandalas — with 200+ pages total. Comes with 24 premium wax crayons. Ages 3-10.",
-      "price": 2199,
-      "images": ["/images/book-1.jpg"],
+      "id": "kd-010",
+      "name": "RC Racing Car for Boys 3\u20135 Years",
+      "slug": "rc-racing-car-boys",
+      "description": "Electric remote control racing car for kids aged 3-5. Full directional control, bright colours, and durable build for indoor and outdoor play.",
+      "price": 2380,
+      "originalPrice": 3049,
+      "images": [
+        "/images/kids-rc-car.webp"
+      ],
       "category": "kids-products",
-      "tags": ["colouring", "book", "crayons", "kids"],
+      "tags": [
+        "rc-car",
+        "electric",
+        "boys",
+        "remote-control",
+        "toys"
+      ],
+      "inStock": true,
+      "featured": true,
+      "newArrival": false
+    },
+    {
+      "id": "kd-011",
+      "name": "Magnetic Drawing Board \u2014 Reusable Art Toy",
+      "slug": "magnetic-drawing-board-kids",
+      "description": "Large red and black magnetic drawing board with reusable surface. Draw, erase, repeat \u2014 no paper, no mess, endless creativity.",
+      "price": 2490,
+      "originalPrice": 3199,
+      "images": [
+        "/images/kids-magnetic-board.jpg"
+      ],
+      "category": "kids-products",
+      "tags": [
+        "magnetic",
+        "drawing",
+        "reusable",
+        "art",
+        "kids"
+      ],
       "inStock": true,
       "featured": false,
       "newArrival": true
     },
     {
       "id": "kd-012",
-      "name": "Pretend Play Doctor Kit",
-      "slug": "pretend-play-doctor-kit",
-      "description": "A 12-piece role-play doctor set including stethoscope, thermometer, syringe, and more. Sparks imaginative play and teaches kids about healthcare. Ages 3+.",
-      "price": 2499,
-      "originalPrice": 2999,
-      "images": ["/images/kids-1.jpg"],
+      "name": "Intex 2ft Rainbow Baby Pool",
+      "slug": "intex-rainbow-baby-pool",
+      "description": "Intex inflatable 2ft rainbow pool for babies and toddlers. Colourful and safe for summer fun in the garden or indoors. Easy to inflate and deflate.",
+      "price": 2700,
+      "originalPrice": 3449,
+      "images": [
+        "/images/kids-baby-pool.jpg"
+      ],
       "category": "kids-products",
-      "tags": ["roleplay", "doctor", "pretend", "kids"],
+      "tags": [
+        "pool",
+        "baby",
+        "summer",
+        "intex",
+        "outdoor"
+      ],
       "inStock": true,
       "featured": false,
-      "newArrival": false
+      "newArrival": true
     },
     {
-      "id": "cs-001",
-      "name": "Velvet Matte Lipstick Set",
-      "slug": "velvet-matte-lipstick-set",
-      "description": "A set of 6 richly pigmented matte lipsticks in stunning shades. Long-lasting formula with moisturizing ingredients. Cruelty-free and vegan.",
-      "price": 5499,
-      "originalPrice": 6999,
-      "images": ["/images/cosmetic-1.jpg"],
-      "category": "cosmetics",
-      "tags": ["lipstick", "makeup", "matte", "vegan"],
+      "id": "kd-013",
+      "name": "Red Mercedes AMG Kids Riding Car",
+      "slug": "red-mercedes-amg-kids-car",
+      "description": "Premium ABS plastic ride-on Mercedes AMG car for toddlers. Smooth wheels, real steering, and bold red finish \u2014 the coolest ride in the playground.",
+      "price": 4320,
+      "originalPrice": 5549,
+      "images": [
+        "/images/kids-mercedes-car.jpeg"
+      ],
+      "category": "kids-products",
+      "tags": [
+        "ride-on",
+        "car",
+        "mercedes",
+        "toddler",
+        "gift"
+      ],
       "inStock": true,
       "featured": true,
       "newArrival": false
-    },
-    {
-      "id": "cs-002",
-      "name": "Hydrating Skincare Collection",
-      "slug": "hydrating-skincare-collection",
-      "description": "A complete 4-step skincare routine including cleanser, toner, serum, and moisturizer. Infused with hyaluronic acid and vitamin E for radiant, hydrated skin.",
-      "price": 8999,
-      "images": ["/images/cosmetic-2.jpg"],
-      "category": "cosmetics",
-      "tags": ["skincare", "hydrating", "routine", "glow"],
-      "inStock": true,
-      "featured": false,
-      "newArrival": true
-    },
-    {
-      "id": "cs-003",
-      "name": "Premium Makeup Brush Set",
-      "slug": "premium-makeup-brush-set",
-      "description": "A professional 12-piece brush set with soft synthetic bristles and elegant handles. Includes brushes for foundation, eyes, cheeks, and more.",
-      "price": 4999,
-      "images": ["/images/cosmetic-3.jpg"],
-      "category": "cosmetics",
-      "tags": ["brushes", "makeup", "professional", "tools"],
-      "inStock": true,
-      "featured": false,
-      "newArrival": true
-    },
-    {
-      "id": "cs-004",
-      "name": "Vitamin C Brightening Serum",
-      "slug": "vitamin-c-brightening-serum",
-      "description": "A potent 20% Vitamin C serum with niacinamide and ferulic acid. Fades dark spots, evens skin tone, and boosts collagen. Clinically tested, dermatologist approved.",
-      "price": 5999,
-      "originalPrice": 7999,
-      "images": ["/images/cosmetic-2.jpg"],
-      "category": "cosmetics",
-      "tags": ["serum", "vitamin-c", "brightening", "skincare"],
-      "inStock": true,
-      "featured": true,
-      "newArrival": true
-    },
-    {
-      "id": "cs-005",
-      "name": "24-Shade Eyeshadow Palette",
-      "slug": "24-shade-eyeshadow-palette",
-      "description": "A versatile palette with 24 highly pigmented shades — from neutral nudes to bold smoky tones. Includes matte, shimmer, and glitter finishes. Zero fallout formula.",
-      "price": 6499,
-      "originalPrice": 8499,
-      "images": ["/images/cosmetic-1.jpg"],
-      "category": "cosmetics",
-      "tags": ["eyeshadow", "palette", "makeup", "pigmented"],
-      "inStock": true,
-      "featured": false,
-      "newArrival": true
-    },
-    {
-      "id": "cs-006",
-      "name": "SPF 50 Sunscreen Gel",
-      "slug": "spf-50-sunscreen-gel",
-      "description": "A lightweight, non-greasy SPF 50 sunscreen gel with broad-spectrum protection. PA+++ rated, suitable for all skin types, and doubles as a primer under makeup.",
-      "price": 2999,
-      "images": ["/images/cosmetic-2.jpg"],
-      "category": "cosmetics",
-      "tags": ["sunscreen", "SPF50", "skincare", "daily"],
-      "inStock": true,
-      "featured": false,
-      "newArrival": false
-    },
-    {
-      "id": "cs-007",
-      "name": "Radiance Highlighter Trio",
-      "slug": "radiance-highlighter-trio",
-      "description": "Three illuminating highlighter shades — champagne, rose gold, and bronze — in one sleek compact. Buildable, blendable, and long-wearing for a lit-from-within glow.",
-      "price": 3999,
-      "originalPrice": 4999,
-      "images": ["/images/cosmetic-3.jpg"],
-      "category": "cosmetics",
-      "tags": ["highlighter", "glow", "makeup", "shimmer"],
-      "inStock": true,
-      "featured": false,
-      "newArrival": true
-    },
-    {
-      "id": "cs-008",
-      "name": "Gentle Foam Face Wash",
-      "slug": "gentle-foam-face-wash",
-      "description": "A gentle foaming cleanser that removes dirt, oil, and makeup without stripping natural moisture. With green tea extract and salicylic acid. Suitable for all skin types.",
-      "price": 1999,
-      "images": ["/images/cosmetic-2.jpg"],
-      "category": "cosmetics",
-      "tags": ["face-wash", "cleanser", "daily", "skincare"],
-      "inStock": true,
-      "featured": false,
-      "newArrival": false
-    },
-    {
-      "id": "cs-009",
-      "name": "Blush & Bronzer Duo Palette",
-      "slug": "blush-bronzer-duo-palette",
-      "description": "A perfectly curated blush and bronzer palette in one compact. Four flattering shades that work for all skin tones. Silky texture with a natural, sun-kissed finish.",
-      "price": 4499,
-      "originalPrice": 5999,
-      "images": ["/images/cosmetic-1.jpg"],
-      "category": "cosmetics",
-      "tags": ["blush", "bronzer", "makeup", "natural"],
-      "inStock": true,
-      "featured": false,
-      "newArrival": false
-    },
-    {
-      "id": "cs-010",
-      "name": "Volumising Mascara",
-      "slug": "volumising-mascara",
-      "description": "A buildable mascara that delivers intense volume, length, and curl in one coat. Smudge-proof and clump-free formula. Ophthalmologist tested, safe for sensitive eyes.",
-      "price": 2499,
-      "images": ["/images/cosmetic-3.jpg"],
-      "category": "cosmetics",
-      "tags": ["mascara", "lashes", "makeup", "volumising"],
-      "inStock": true,
-      "featured": false,
-      "newArrival": true
-    },
-    {
-      "id": "cs-011",
-      "name": "Retinol Night Repair Cream",
-      "slug": "retinol-night-repair-cream",
-      "description": "A powerful retinol-based night cream that reduces fine lines, firms skin, and improves texture overnight. With soothing peptides and niacinamide to minimise irritation.",
-      "price": 7499,
-      "originalPrice": 9999,
-      "images": ["/images/cosmetic-2.jpg"],
-      "category": "cosmetics",
-      "tags": ["retinol", "anti-aging", "night-cream", "skincare"],
-      "inStock": true,
-      "featured": false,
-      "newArrival": false
-    },
-    {
-      "id": "cs-012",
-      "name": "Nail Polish Collection Set",
-      "slug": "nail-polish-collection-set",
-      "description": "A set of 10 chip-resistant nail polishes in seasonal trending shades. Quick-dry formula, gel-like finish, and free from harmful chemicals. Includes a base and top coat.",
-      "price": 3499,
-      "originalPrice": 4499,
-      "images": ["/images/cosmetic-1.jpg"],
-      "category": "cosmetics",
-      "tags": ["nail-polish", "nails", "set", "colour"],
-      "inStock": true,
-      "featured": false,
-      "newArrival": true
     }
   ],
   "categories": [
