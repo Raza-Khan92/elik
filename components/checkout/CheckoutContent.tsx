@@ -105,14 +105,17 @@ export function CheckoutContent() {
   }
 
   return (
-    <div className="pt-20 bg-stone-50 min-h-screen">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 lg:py-12">
-        <div className="mb-8">
-          <h1 className="text-3xl lg:text-4xl font-serif font-bold text-stone-900">Secure Checkout</h1>
-          <p className="text-stone-500 mt-1 flex items-center gap-1.5">
-            <ShieldCheck className="w-4 h-4 text-green-600" />Your information is safe with us
+    <div className="pt-20">
+      <div className="bg-stone-900 py-10">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <h1 className="text-3xl lg:text-4xl font-serif font-bold text-white">Secure Checkout</h1>
+          <p className="text-stone-400 mt-2 text-sm flex items-center justify-center gap-1.5">
+            <ShieldCheck className="w-4 h-4 text-green-400" />Your information is safe with us
           </p>
         </div>
+      </div>
+      <div className="bg-stone-50 min-h-screen">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 lg:py-12">
 
         <div className="grid grid-cols-1 lg:grid-cols-[1fr_420px] gap-8 lg:gap-12">
           <form onSubmit={handlePlaceOrder} className="space-y-6">
@@ -215,6 +218,7 @@ export function CheckoutContent() {
             </div>
           </div>
         </div>
+      </div>
       </div>
     </div>
   )

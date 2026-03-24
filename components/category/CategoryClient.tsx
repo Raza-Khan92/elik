@@ -27,6 +27,13 @@ export function CategoryClient({ category, products }: Props) {
 
   return (
     <div className="pt-20">
+      <div className="bg-stone-900 py-10">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <h1 className="text-3xl lg:text-4xl font-serif font-bold text-white">{category.name}</h1>
+          <p className="text-stone-400 mt-2 text-sm">{products.length} products</p>
+        </div>
+      </div>
+      <div className="bg-stone-50 min-h-screen">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
         <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4 mb-8">
           <p className="text-stone-500">
@@ -63,6 +70,7 @@ export function CategoryClient({ category, products }: Props) {
             {sortedProducts.map((product) => <ProductCard key={product.id} product={product} />)}
           </div>
         )}
+      </div>
       </div>
     </div>
   )
