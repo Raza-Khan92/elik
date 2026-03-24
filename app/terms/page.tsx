@@ -1,6 +1,5 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
-import { FileText } from 'lucide-react'
 
 const LAST_UPDATED = 'March 21, 2025'
 const CONTACT_EMAIL = 'aliraxaa95@gmail.com'
@@ -40,17 +39,11 @@ function Section({ id, title, children }: { id: string; title: string; children:
 export default function TermsPage() {
   return (
     <div className="pt-20 bg-stone-50 min-h-screen">
-      <div className="bg-stone-900 py-12 lg:py-16">
-        <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <div className="w-12 h-12 bg-amber-500/20 rounded-2xl flex items-center justify-center mx-auto mb-4">
-            <FileText className="w-6 h-6 text-amber-400" />
-          </div>
-          <h1 className="text-3xl lg:text-4xl font-serif font-bold text-white">Terms &amp; Conditions</h1>
-          <p className="text-stone-400 mt-3 text-sm">Last updated: {LAST_UPDATED}</p>
-        </div>
-      </div>
-
       <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-10 lg:py-14">
+        <div className="text-center mb-10">
+          <h1 className="text-3xl lg:text-4xl font-serif font-bold text-stone-900">Terms &amp; Conditions</h1>
+          <p className="text-stone-500 mt-3 text-sm">Last updated: {LAST_UPDATED}</p>
+        </div>
           <article className="prose prose-stone max-w-none">
             <Section id="acceptance" title="1. Acceptance of Terms">
               <p>By accessing or using the {SITE_NAME} website at {SITE_URL}, browsing our products, or placing an order, you confirm that you are at least 18 years of age and agree to be bound by these Terms &amp; Conditions and our <Link href="/privacy" className="text-amber-600 hover:underline">Privacy Policy</Link>.</p>
